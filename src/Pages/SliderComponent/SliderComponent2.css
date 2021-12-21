@@ -1,0 +1,70 @@
+#slider-block2 {
+  background: url("https://www-growth.scdn.co/static/home/wrapped-homepage-banner-graphic-desktop.svg");
+  background-position: right -1902 bottom -1428;
+  background-repeat: no-repeat;
+  background-color: #f46ebe;
+}
+#slider-block2 article {
+  display: flex;
+  width: 80%;
+  margin: 0 auto;
+  height: 100%;
+  min-height: 630px;
+}
+#slider-block2 article .sliderLeft2 {
+  flex-basis: 60%;
+}
+#slider-block2 article .sliderRight2 {
+  flex-basis: 40%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.sliderLeft2 {
+  color: #202f72;
+  margin: 80px 0;
+}
+.sliderLeft2 h4 {
+  padding-bottom: 50px;
+  font-size: 14px;
+}
+.sliderLeft2 h1 {
+  font-size: 3.5em;
+  font-weight: bold;
+  text-transform: capitalize;
+  padding-bottom: 40px;
+}
+.enjoy2 {
+  font-size: 20px;
+  font-weight: bold;
+  padding-bottom: 50px;
+  letter-spacing: 1.3px;
+  /* margin-bottom: 50px; */
+}
+
+.appStoreBlock {
+  display: flex;
+}
+.appStoreBlock img:nth-child(2) {
+  width: 150px;
+  margin: 0 10px;
+}
+
+/* .sliderLeft2 button {
+  padding: 17px 48px;
+  border-radius: 500px;
+  border: none;
+  background: #202f72 !important;
+  color: rgb(150, 240, 182);
+  font-size: 15px;
+  text-transform: uppercase;
+  letter-spacing: 1.8px;
+  font-weight: bold;
+  margin-bottom: 50px;
+} */
+
+.copyWrite2 {
+  font-size: 16px;
+  margin-top: 20px;
+}

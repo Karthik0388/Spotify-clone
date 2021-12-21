@@ -1,0 +1,63 @@
+#Footer-block{
+    background: #111;
+    color: #fff;
+}
+#Footer-block article{
+    display: flex;
+    width: 80%;
+    margin: 0 auto;
+    height: 100%;
+    min-height: 530px;
+}
+#Footer-block article .sliderLeft{
+flex-basis: 20%;
+}
+.sliderLeft svg{
+    width:150px;
+    fill: #fff;
+}
+.List1{
+    flex-basis: 25%;
+    margin-top: 100px;
+    margin-left:10px ;
+}
+.List1 ul{
+    list-style: none;
+   
+}
+.List1 ul li:nth-child(1),.List1 ul li:nth-child(2),.List1 ul li:nth-child(3){
+ margin-top: 20px;
+}
+.List2{
+    flex-basis: 25%;
+     margin-top: 100px;
+    margin-left:10px ;
+}
+.List2 ul{
+    list-style: none;
+   
+}
+.List2 ul li:nth-child(1),.List2 ul li:nth-child(2),.List2 ul li:nth-child(3),.List2 ul li:nth-child(4),.List2 ul li:nth-child(5){
+ margin-top: 20px;
+}
+.List3{
+    flex-basis: 25%;
+     margin-top: 100px;
+    margin-left:10px ;
+}
+.List3 ul{
+    list-style: none;
+}
+.List3 ul li:nth-child(1),.List3 ul li:nth-child(2),.List3 ul li:nth-child(3){
+ margin-top: 20px;
+}
+.List4{
+    flex-basis: 25%;
+    margin-top: 120px;
+}
+/* FooterLast */
+.footerLast ul{
+display: flex;
+justify-content: space-between;
+margin-top:500px;
+}

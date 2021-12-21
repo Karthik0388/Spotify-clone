@@ -1,0 +1,270 @@
+#authBlock article{
+    width:100%;
+    height:100px;
+    display:flex;
+    align-items:center;
+    margin:30px 0;
+    flex-direction: column;
+}
+#authBlock article svg{
+fill:#111;
+width:150px;
+}
+.authContent h1{
+    font-size: 27px;
+    font-weight: bold;
+    padding: 20px;
+    color: #000;
+}
+.authContent{
+    text-align: center;
+}
+.authContent button{
+    background: #1877f2;
+    color: #fff;
+    padding: 14px 32px;
+    border: none;
+    border-radius: 500px;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.orBlock{
+    border-bottom:1px solid #ccc;
+    padding: 10px;
+    width: 80%;
+    margin: 12px auto;
+    position: relative;
+}
+.orBlock strong{
+    border: none;
+    top: 0px;
+    padding: 10px;
+    border-radius: 100%;
+    width: 40px;
+    height: 40px;
+    display:inline-block;
+    position: absolute;
+    left: 44%;
+    z-index: 11111;
+    text-transform: lowercase;
+    background-color: #fff;
+    color: #999;
+}
+
+.formContent{
+    width: 500px;
+    margin: 0 auto;
+}
+.formContent h2{
+    font-size: 17px;
+    text-align: center;
+    padding: 20px 0;
+    color: #000;
+}
+.formContent label{
+width: 100%;
+display: block;
+font-size: 14px;
+text-transform: capitalize;
+font-weight: bold !important;
+padding-bottom: 10px;
+}
+
+.formContent input[type="text"],.formContent input[type="password"],.formContent input[type="email"],.formContent input[type="profile-Name"]{
+    width: 100%;
+    display: block;
+    height: 50px;
+    border-radius: 3px;
+    border: 1px solid #999;
+    padding: 0 10px;
+    margin-bottom: 20px;
+}
+.dateBlock{
+    display: flex;
+    justify-content: space-between;
+}
+.dateBlock input:nth-child(1){
+    flex-basis: 40%;
+}
+.dateBlock input:nth-child(2){
+    flex-basis: 20%;
+}
+.dateBlock input:nth-child(3){
+    flex-basis: 30%;
+}
+
+ .genderBlock{
+    display: flex;
+    padding: 15px 0;
+}
+.genderBlock span{
+    padding: 0 20px 0 0;
+}
+.genderBlock span input{
+    margin-right: 7px;
+}
+
+
+.formContent input [type='Checkbox']{
+display: inline-block;
+margin: 0 7px 0 0;
+}
+
+.checkBoxContent{
+    font-size: 14px;
+    font-weight: bold;
+    color: #000;
+    padding:0 10px;
+}
+.copyWriteText{
+    font-size: 13px;
+    padding: 10px;
+    text-align: center;
+}
+.btn-group{
+    text-align: center;
+}
+.btn-group button{
+background: #1ed760;
+padding: 20px 56px;
+margin-top:10px;
+border-radius: 500px;
+border: none;
+font-weight: 600;
+font-size: 16px;
+}
+.form-Group2{
+    margin: 30px 0;
+    
+}
+.borderBottom{
+border-bottom: 1px solid #ccc;
+}
+.form-Group2 p{
+    display: flex;
+    flex-basis: 50%;
+    justify-content: flex-start;
+    margin-top: 20px;
+}
+.form-Group2 button{
+    margin-top: -40px;
+  padding: 20px 100px;
+  text-transform: uppercase;
+  color: #fff;
+}
+
+
+.endBlock{
+    text-align: center;
+    margin: 20px;
+    padding-top: 10px;
+}
+
+/* LoginForm */
+.loginContent{
+    text-align: center;
+}
+.loginContent button{
+    background: rgb(46, 111, 177);
+    color: #fff;
+    padding: 15px 120px;
+    border: none;
+    border-radius: 500px;
+    font-size: 16px;
+    font-weight: bold;
+    display: flex;
+    flex-direction: column;
+    flex-basis: 70%;
+    width: 100%;
+    margin-top: 10px;
+}
+.loginContent .btn2{
+    background: #111;
+    color: #fff;
+
+}
+.loginContent .btn3{
+    background: none;
+    color: #000;
+    border: 1px solid #474646
+}
+.loginContent .btn4{
+    background: none;
+    color: #000;
+    border: 1px solid #474646
+}
+.Link{
+    text-decoration: none;
+    color: #111;
+}
+.loginContent .btn5{
+    background: none;
+    color: #000;
+    border: 1px solid #474646
+}
+.orBlock1{
+     border-bottom:1px solid #ccc;
+    padding: 10px;
+    width: 100%;
+    margin: 12px auto;
+    position: relative;
+}
+.orBlock2{
+     border-bottom:1px solid #ccc;
+    padding: 10px;
+    width: 35%;
+    margin: 12px auto;
+    position: relative;
+}
+.orBlock2 strong{
+    border: none;
+    top: 0px;
+    padding: 10px;
+    border-radius: 100%;
+    width: 40px;
+    height: 40px;
+    display:inline-block;
+    position: absolute;
+    left: 44%;
+    z-index: 11111;
+    text-transform: lowercase;
+    background-color: #fff;
+    color: #999;
+}
+.form-group1{
+    
+    flex-basis: 50%;
+    justify-content: flex-start;
+}
+/* .form-group1 input{
+    margin-top: 30px;
+} */
+.form-group1 button{
+    flex-basis: 50%;
+    display: flex;
+    justify-content: flex-end;
+    margin-left: 250px;
+}
+/* .signupContent{
+    display: flex;
+    flex-direction: column;
+} */
+.signupContent h1{
+    text-align: center;
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+.signupContent button{
+     flex-basis: 50%;
+    display: flex;
+    justify-content: flex-end;
+    margin-left: 250px;
+    width:100%;
+    border: none;
+    border-radius: 500px;
+    margin: 30px 0;
+    padding: 20px 30px;
+    text-align: center;
+}

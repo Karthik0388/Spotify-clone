@@ -1,0 +1,106 @@
+#profileBlock header {
+  height: 30vh;
+  max-height: 500px;
+  min-height: 340px;
+  width: 1100px;
+  background: #5a5a5a40;
+  display: flex;
+  align-items: center;
+}
+#profileBlock header figure {
+  flex-basis: 25%;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+}
+#profileBlock header figure img {
+  width: 200px;
+  border-radius: 500px;
+  margin-left: 10px;
+  height: 200px;
+  background-color: #5a5a5a40;
+}
+#profileBlock header aside {
+  flex-basis: 75%;
+}
+#profileBlock header aside h5 {
+  font-size: 17px;
+  color: #fff;
+  padding: 20px 0;
+}
+#profileBlock header aside h1 {
+  font-size: 6em;
+  text-transform: capitalize;
+  color: #fff;
+  font-weight: 900;
+}
+#profileBlock header figure:hover ._editIcon {
+  filter: drop-shadow(2px 4px 6px #111);
+  display: block;
+}
+._editIcon {
+  margin-left: 60px;
+  margin-top: 71px;
+  display: flex;
+  color: #111;
+  display: none;
+  position: absolute;
+  color: #fff;
+}
+._editIcon i {
+  font-size: 35px;
+  display: block;
+  padding-bottom: 20px;
+  text-align: center;
+  margin: 20px 0;
+}
+
+#photo_upload_block article {
+  width: 100%;
+  display: flex;
+  margin-top: 100px;
+  align-items: center;
+  flex-direction: column;
+}
+#photo_upload_block ._block {
+  width: 500px;
+  text-align: center;
+  color: #fff;
+  background: #282828;
+  margin-left: 260px;
+  padding: 10px;
+  height: 200px;
+  display: flex;
+  flex-direction: column;
+}
+
+#photo_upload_block input {
+  position: relative;
+  top: 57px;
+}
+
+#photo_upload_block button {
+  background: #fff;
+  width: 82px;
+  color: black;
+  position: relative;
+  top: 54px;
+}
+
+#progressSection > article {
+  display: flex;
+  color: #fff;
+}
+#progressSection > article > span:nth-child(1) {
+  flex-basis: 95%;
+}
+#progressSection > article > span:nth-child(1) {
+  flex-basis: 5%;
+  justify-content: center;
+  display: flex;
+}
+progress {
+  width: 100%;
+}

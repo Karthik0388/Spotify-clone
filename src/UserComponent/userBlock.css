@@ -1,0 +1,48 @@
+@import url("https://pro.fontawesome.com/releases/v5.10.0/css/all.css");
+
+#userBlock {
+  display: flex;
+  height: 100vh;
+}
+.UserLeftBlock {
+  flex-basis: 20%;
+  background: #000;
+  color: #fff;
+}
+.UserLeftBlock svg {
+  fill: #fff;
+  width: 150px;
+  margin: 10px 0 0 15px;
+}
+.UserLeftBlock Logo {
+  margin: 10px;
+}
+.userRightBlock {
+  flex-basis: 80%;
+  background: #121212 !important;
+  color: #fff;
+}
+.UserLeftBlock ul li {
+  padding: 10px;
+  margin: 10px;
+}
+
+.UserLeftBlock ul li a {
+  text-decoration: none;
+  color: #797676;
+}
+.UserLeftBlock ul li span {
+  margin: 0 10px;
+}
+.UserLeftBlock ul li a:hover {
+  color: #fff;
+}
+.underLine {
+  list-style: none;
+  margin: 0 auto;
+  width: 85%;
+  border-bottom: 1px solid #eee;
+}
+.UserLeftBlock footer {
+  margin: 250px 0 0 20px;
+}
